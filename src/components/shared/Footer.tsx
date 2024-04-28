@@ -35,7 +35,7 @@ export default function Footer() {
   return (
     <footer>
       {/* menu area */}
-      <div className="container mx-auto px-5 pb-10">
+      <div className="container mx-auto px-5 py-10">
         <div className="grid gap-5 grid-cols-11">
           <div className="col-span-5">
             <div className="w-[300px] max-w-full flex flex-col gap-3">
