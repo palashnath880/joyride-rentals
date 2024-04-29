@@ -33,7 +33,7 @@ const FooterMenu = ({
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className="!bg-gray-100 mt-10">
       {/* menu area */}
       <div className="container mx-auto px-5 py-10">
         <div className="grid gap-5 grid-cols-11">
