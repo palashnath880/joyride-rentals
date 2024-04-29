@@ -3,6 +3,7 @@ import "./globals.css";
 import ThemeProvider from "@/providers/ThemeProvider";
 import Footer from "@/components/shared/Footer";
 import Header from "@/components/shared/Header";
+import "swiper/css";
 
 import { Roboto } from "next/font/google";
 const roboto = Roboto({

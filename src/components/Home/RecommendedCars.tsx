@@ -29,7 +29,7 @@ export default function RecommendedCars() {
                 capacity={5}
                 discount={0}
                 id="1292"
-                image="/images/logo.png"
+                image="/images/car.png"
                 name="Nissan GTR"
                 rent={200}
                 slug="nissan-gtr"

@@ -61,7 +61,7 @@ export default function CarItem({
           width={300}
           height={200}
           alt={name}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-contain"
         />
       </div>
       <div className="flex items-center justify-between mt-4 !text-sm !font-medium">
