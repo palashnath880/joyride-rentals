@@ -1,4 +1,5 @@
 import {
+  CarRental,
   Favorite,
   FavoriteBorder,
   LocalGasStation,
@@ -96,7 +97,7 @@ export default function CarItem({
         </div>
         <Button
           variant="contained"
-          className="!py-2.5 !px-4 !text-sm"
+          className="!py-2.5 !px-4 !text-sm !font-normal !rounded-full"
           LinkComponent={Link}
           href={`/cars/${slug}`}
         >

@@ -69,7 +69,7 @@ export default function HeroSliders() {
 
   return (
     <section>
-      <div className="container mx-auto px-5 py-14">
+      <div className="container mx-auto px-5 py-10">
         <div className="!relative">
           <Swiper
             slidesPerView={2}
