@@ -161,7 +161,15 @@ const ReturnDateTime = () => {
   );
 };
 
-export default function BookingArea() {
+export default function BookingArea({
+  districts,
+  upazilas,
+}: {
+  districts: { id: number; name: string }[];
+  upazilas: { id: number; name: string; district_id: number }[];
+}) {
+  console.log(districts, upazilas);
+
   return (
     <section>
       <div className="container mx-auto px-5">
